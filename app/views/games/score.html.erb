@@ -1,0 +1,8 @@
+<div>
+  <h1>
+    <%= "Some of those letters weren't available!" if @included = false %>
+    <%= "Your word doesn't exist, according to the dictionary." if @valid = false %>
+    <%= "Well done, you scored #{@scored}!" %>
+  </h1>
+ </div>
+
